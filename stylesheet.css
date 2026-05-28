@@ -1,0 +1,181 @@
+/* Clipboard History – GNOME 50 native styling */
+
+/* ── Popup container ─────────────────────────────────────────────── */
+.clipboard-popup {
+    background-color: #1e1e1e;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 14px;
+    padding: 6px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.70);
+}
+
+/* ── Header ───────────────────────────────────────────────────────── */
+.clipboard-header {
+    padding: 4px 6px 10px 6px;
+    spacing: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 6px;
+}
+
+.clipboard-title {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.clipboard-clear-btn {
+    padding: 4px 8px;
+    border-radius: 7px;
+    background-color: rgba(255, 60, 60, 0.08);
+    transition-duration: 100ms;
+}
+.clipboard-clear-btn:hover {
+    background-color: rgba(255, 60, 60, 0.28);
+}
+
+/* ── Scroll area ─────────────────────────────────────────────────── */
+.clipboard-scroll {
+    max-height: 420px;
+    width: 380px;
+}
+
+/* ── List ─────────────────────────────────────────────────────────── */
+.clipboard-list {
+    spacing: 2px;
+}
+
+/* ── Each row ─────────────────────────────────────────────────────── */
+.clipboard-row {
+    spacing: 4px;
+}
+
+/* ── Item button ──────────────────────────────────────────────────── */
+.clipboard-item-btn {
+    padding: 7px 10px;
+    border-radius: 9px;
+    background-color: transparent;
+    transition-duration: 100ms;
+}
+.clipboard-item-btn:hover {
+    background-color: rgba(255, 255, 255, 0.07);
+}
+.clipboard-item-btn:active {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+/* ── Item label ───────────────────────────────────────────────────── */
+.clipboard-item-label {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 13px;
+    margin-left: 9px;
+}
+
+/* ── Delete button ────────────────────────────────────────────────── */
+.clipboard-delete-btn {
+    padding: 6px;
+    border-radius: 7px;
+    background-color: rgba(255, 60, 60, 0.08);
+    transition-duration: 100ms;
+}
+.clipboard-delete-btn:hover {
+    background-color: rgba(255, 60, 60, 0.28);
+}
+
+/* ── Pin button ───────────────────────────────────────────────────── */
+.clipboard-pin-btn {
+    padding: 6px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.08);
+    transition-duration: 100ms;
+}
+.clipboard-pin-btn:hover {
+    background-color: rgba(255, 255, 255, 0.28);
+}
+.clipboard-pin-btn.pinned {
+    background-color: rgba(237, 173, 86, 0.18);
+    color: #fbd38d;
+}
+.clipboard-pin-btn.pinned:hover {
+    background-color: rgba(237, 173, 86, 0.38);
+}
+
+/* ── Empty state ──────────────────────────────────────────────────── */
+.clipboard-empty {
+    padding: 28px 16px;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 13px;
+    text-align: center;
+}
+
+/* ══ Type badge pill ══════════════════════════════════════════════════
+   Base pill: icon + short ALL-CAPS label, rounded, compact           */
+.type-badge {
+    border-radius: 6px;
+    padding: 2px 6px 2px 5px;
+    spacing: 4px;
+}
+
+.type-badge-icon {
+    /* icon colour is set per-variant via color below */
+}
+
+.type-badge-label {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+/* TEXT  – cool blue ------------------------------------------------- */
+.type-badge-text {
+    background-color: rgba(99, 179, 237, 0.18);
+}
+.type-badge-text .type-badge-icon {
+    color: #63b3ed;
+}
+.type-badge-text .type-badge-label {
+    color: #90cdf4;
+}
+
+/* IMG   – teal/green ------------------------------------------------ */
+.type-badge-image {
+    background-color: rgba(72, 187, 120, 0.18);
+}
+.type-badge-image .type-badge-icon {
+    color: #48bb78;
+}
+.type-badge-image .type-badge-label {
+    color: #9ae6b4;
+}
+
+/* COPY – amber ----------------------------------------------------- */
+.type-badge-copy {
+    background-color: rgba(237, 173, 86, 0.18);
+}
+.type-badge-copy .type-badge-icon {
+    color: #edae56;
+}
+.type-badge-copy .type-badge-label {
+    color: #fbd38d;
+}
+
+/* CUT   – coral red ------------------------------------------------- */
+.type-badge-cut {
+    background-color: rgba(252, 129, 74, 0.18);
+}
+.type-badge-cut .type-badge-icon {
+    color: #fc814a;
+}
+.type-badge-cut .type-badge-label {
+    color: #fed7c3;
+}
+
+/* UNKNOWN ----------------------------------------------------------- */
+.type-badge-unknown {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.type-badge-unknown .type-badge-icon {
+    color: rgba(255, 255, 255, 0.40);
+}
+.type-badge-unknown .type-badge-label {
+    color: rgba(255, 255, 255, 0.40);
+}

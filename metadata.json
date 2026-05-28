@@ -1,0 +1,16 @@
+{
+  "name": "Modern Clipboard Manager",
+  "description": "Never lose copied text again! A sleek clipboard manager that saves your history even after a reboot. Features: customizable keyboard shortcuts, adjustable history size, automatic whitespace trimming, and a beautiful modern UI.",
+  "uuid": "modern-clipboard@nadeem-elbarbari.github.com",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/nadeem-elbarbari",
+  "settings-schema": "org.gnome.shell.extensions.modern-clipboard",
+  "version": 1
+}

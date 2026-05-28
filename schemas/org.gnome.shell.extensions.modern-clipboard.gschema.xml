@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.modern-clipboard" path="/org/gnome/shell/extensions/modern-clipboard/">
+    <key name="history-size" type="i">
+      <default>20</default>
+      <summary>History Size</summary>
+      <description>Maximum number of items to keep in history.</description>
+    </key>
+    <key name="persist-history" type="b">
+      <default>false</default>
+      <summary>Persist History</summary>
+      <description>Save clipboard history to disk across reboots (affects text items only).</description>
+    </key>
+    <key name="history-shortcut" type="as">
+      <default><![CDATA[['<Super><Shift>v']]]></default>
+      <summary>History Shortcut</summary>
+      <description>Shortcut to open the clipboard history menu.</description>
+    </key>
+    <key name="clear-history" type="b">
+      <default>false</default>
+      <summary>Clear History</summary>
+      <description>Trigger key to clear clipboard history.</description>
+    </key>
+    <key name="trim-whitespaces" type="b">
+      <default>false</default>
+      <summary>Trim Whitespaces</summary>
+      <description>Trim whitespaces at the beginning and end of copied text.</description>
+    </key>
+  </schema>
+</schemalist>
