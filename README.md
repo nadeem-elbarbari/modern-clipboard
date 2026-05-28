@@ -2,7 +2,7 @@
 
 > Never lose copied text again! A sleek, elegant clipboard manager for GNOME Shell that saves your history even after a reboot.
 
-![Icon](icon.png)
+![Modern Clipboard Manager](image.png)
 
 ## ✨ Features
 
